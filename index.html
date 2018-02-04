@@ -3,6 +3,9 @@
 <head>
 	<title>gpa2</title>
 	<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="style.css">
+
 
 </head>
 <style>
@@ -11,11 +14,71 @@
 
 <body>
 <div class="container">
-  <h2>GPA CALCULATOR</h2>
+
+   <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        
+                    </a>
+                </li>
+                <li id="sem1">
+                    <a href="#">SEMESTER 1 </a>
+                </li>
+                <li id="sem2">
+                    <a href="#">SEMESTER 2</a>
+                </li>
+                <li id="sem3">
+                    <a href="#">SEMESTER 3</a>
+                </li>
+                <li id="sem4">
+                    <a href="#">SEMESTER 4</a>
+                </li>
+                <li id="sem5">
+                    <a href="#">SEMESTER 5</a>
+                </li>
+                <li id="sem6">
+                    <a href="#">SEMESTER 6</a>
+                </li>
+                <li id="sem7">
+                    <a href="#">SEMESTER 7</a>
+                </li>
+
+                <li id="sem8">
+                    <a href="#">SEMESTER 8</a>
+                </li>
+
+                <li id="sum1">
+                    <a href="#">SUMMER 1</a>
+                </li>
+                
+                 <li id="sum2">
+                    <a href="#">SUMMER 2</a>
+                </li>
+
+                <li id="sum3">
+                    <a href="#">SUMMER 3</a>
+                </li>
+
+  
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>GPA CALCULATOR</h2>
+
 
 
 <form class='b'> 
-	
+  
   
 
   <div class="form-row">
@@ -23,15 +86,16 @@
       <input type="text" class="form-control" placeholder="COURSES">
     </div>
     <div class="col-2">
-    	<select class="custom-select mr-sm-4" id="inlineFormCustomSelect">
+      <select class="custom-select mr-sm-4" id="inlineFormCustomSelect">
         <option selected>Choose...</option>
         <option value="1">A</option>
         <option value="2">B</option>
         <option value="3">C</option>
       </select>
     </div>
+
     <div class="col-2">
-    	 <select class="custom-select mr-sm-4" id="inlineFormCustomSelect">
+       <select class="custom-select mr-sm-4" id="inlineFormCustomSelect">
         <option selected>Choose...</option>
         <option value="1">One</option>
         <option value="2">Two</option>
@@ -42,32 +106,19 @@
   </div>
 
 
-   <div class="form-row">
-    <div class="col-2">
-      <input type="text" class="form-control" placeholder="COURSES">
-    </div>
-    <div class="col-2">
-    	<select class="custom-select mr-sm-4" id="inlineFormCustomSelect">
-        <option selected>Choose...</option>
-        <option value="1">A</option>
-        <option value="2">B</option>
-        <option value="3">C</option>
-      </select>
-    </div>
-    <div class="col-2">
-    	 <select class="custom-select mr-sm-4" id="inlineFormCustomSelect">
-        <option selected>Choose...</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-  </div>
-  </div>
+  
 
 
 </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
 
+    </div>
+   
 
 
 
@@ -94,5 +145,10 @@
 
 </div>
 <script src="app.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap Js CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Custom Scroller Js CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 </body>
 </html>
