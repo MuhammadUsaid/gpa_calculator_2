@@ -6,6 +6,54 @@
 
 /* Toggle Styles */
 
+.sem2form{
+    display: none;
+}
+
+.sem3form{
+    display: none;
+}
+
+.sem4form{
+    display: none;
+}
+
+.sem5form{
+    display: none;
+}
+
+.sem6form{
+    display: none;
+}
+
+.sem7form{
+    display: none;
+}
+
+.sem8form{
+    display: none;
+}
+
+.sem9form{
+    display: none;
+}
+
+.sem10form{
+    display: none;
+}
+
+.sem11form{
+    display: none;
+}
+
+.sem4form {
+    margin-top: 50px;
+
+}
+#add{
+    margin: auto;
+
+}
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
