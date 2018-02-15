@@ -5,7 +5,23 @@
  */
 
 /* Toggle Styles */
+/*
+.result {
+    min-width:50%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+    margin: 50px;
+    margin-top: 50px;
+}*/
 
+h6 {    
+    margin: 10px;
+    background: gray;
+    text-align: center;
+
+}
 .sem2form{
     display: none;
 }
