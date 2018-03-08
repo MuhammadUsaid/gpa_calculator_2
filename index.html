@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>gpa2</title>
+  <title>Gpa Calculator</title>
+  <meta charset="utf-8">
 	<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   <link rel="stylesheet" href="style.css">
@@ -27,41 +28,41 @@
                 </li>
                <!--  <li id="sem1"> -->
                 <li>
-                    <a href="#" onclick="displayOther(this.parent.id)" id="sem1">SEMESTER 1 </a>
+                    <a href="#" onclick="displayOther(this.id)" id="semester1">SEMESTER 1 </a>
                 </li>
-                <li id="sem2">
-                    <a href="#">SEMESTER 2</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester2">SEMESTER 2</a>
                 </li>
-                <li id="sem3">
-                    <a href="#">SEMESTER 3</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester3">SEMESTER 3</a>
                 </li>
-                <li id="sem4">
-                    <a href="#">SEMESTER 4</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester4">SEMESTER 4</a>
                 </li>
-                <li id="sem5">
-                    <a href="#">SEMESTER 5</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester5">SEMESTER 5</a>
                 </li>
-                <li id="sem6">
-                    <a href="#">SEMESTER 6</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester6">SEMESTER 6</a>
                 </li>
-                <li id="sem7">
-                    <a href="#">SEMESTER 7</a>
-                </li>
-
-                <li id="sem8">
-                    <a href="#">SEMESTER 8</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester7">SEMESTER 7</a>
                 </li>
 
-                <li id="sum1">
-                    <a href="#">SUMMER 1</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester8">SEMESTER 8</a>
+                </li>
+
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester9">SUMMER 1</a>
                 </li>
                 
-                 <li id="sum2">
-                    <a href="#">SUMMER 2</a>
+                 <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester10">SUMMER 2</a>
                 </li>
 
-                <li id="sum3">
-                    <a href="#">SUMMER 3</a>
+                <li>
+                    <a href="#" onclick="displayOther(this.id)" id="semester11">SUMMER 3</a>
                 </li>
 
   
@@ -78,9 +79,8 @@
 
 
 
-<form class='sem1form' > 
-  
-  
+<form class='sem1form' id="semester1form" class="semform" > 
+  <h2>Semester 1</h2>
 
   <div class="form-row" id="sem1row1">
     <div class="col-2">
@@ -218,6 +218,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow1'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate1'>Calculate</button>
   <!-- <div class="container"> -->
         <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa1>  </span></h6>
@@ -228,8 +229,8 @@
 
 </form>
 
-<form class='sem2form' > 
-  
+<form class='sem2form' id="semester2form" class="semform"> 
+  <h2>Semester 2</h2>
   
 
   <div class="form-row" id="sem2row1">
@@ -369,6 +370,7 @@
   <button type="button" class="btn btn-secondary" id='addrow2'>ADD</button>
   
   <button type="button" class="btn btn-secondary" id='removerow2'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate2'>Calculate</button>
 
       <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa2>  </span></h6>
@@ -377,7 +379,8 @@
 
 </form>
 
-<form class='sem3form' > 
+<form class='sem3form' id="semester3form" class="semform">
+    <h2>Semester 3</h2>
   <div class="form-row" id="sem3row1">
     <div class="col-2">
       <input type="text" class="form-control" placeholder="COURSES">
@@ -516,6 +519,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow3'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate3'>Calculate</button>
 
       <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa3>  </span></h6>
@@ -524,8 +528,8 @@
 
   </form>
   
-<form class='sem4form'> 
-  
+<form class='sem4form' id="semester4form" class="semform"> 
+    <h2>Semester 4</h2>
   
 
   <div class="form-row" id="sem4row1">
@@ -666,6 +670,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow4'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate4'>Calculate</button>
 
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa4>  </span></h6>
@@ -675,9 +680,9 @@
 
   </form>
 
-<form class='sem5form'> 
+<form class='sem5form' id="semester5form" class="semform"> 
   
-  
+    <h2>Semester 5</h2>
 
   <div class="form-row" id="sem5row1">
     <div class="col-2">
@@ -817,6 +822,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow5'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate5'>Calculate</button>
 
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa5>  </span></h6>
@@ -826,8 +832,8 @@
 
   </form>
 
-<form class='sem6form'> 
-  
+<form class='sem6form' id="semester6form" class="semform"> 
+    <h2>Semester 6</h2>
   
 
   <div class="form-row" id="sem6row1">
@@ -968,6 +974,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow6'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate6'>Calculate</button>
 
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa6>  </span></h6>
@@ -977,8 +984,8 @@
 
   </form>
 
-<form class='sem7form'> 
-  
+<form class='sem7form' id="semester7form" class="semform"> 
+    <h2>Semester 7</h2>
   
 
   <div class="form-row" id="sem7row1" >
@@ -1119,6 +1126,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow7'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate7'>Calculate</button>
 
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa7>  </span></h6>
@@ -1128,8 +1136,8 @@
 
   </form>
 
-<form class='sem8form'> 
- 
+<form class='sem8form' id="semester8form" class="semform"> 
+    <h2>Semester 8</h2>
 
  <div class="form-row" id="sem8row1">
     <div class="col-2">
@@ -1269,6 +1277,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow8'>REMOVE</button>
+  <button type="button" class="btn btn-secondary" id='calculate8'>Calculate</button>
 
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa8>  </span></h6>
@@ -1278,8 +1287,8 @@
 
   </form>
 
-<form class='sem9form'> 
-  
+<form class='sem9form' id="semester9form" class="semform"> 
+    <h2>Summer Semester 1</h2>
   
 
   <div class="form-row" id="sem9row1">
@@ -1420,7 +1429,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow9'>REMOVE</button>
-
+  <button type="button" class="btn btn-secondary" id='calculate9'>Calculate</button>
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa9>  </span></h6>
         </div>
@@ -1429,8 +1438,8 @@
 
   </form>
 
-<form class='sem10form'> 
-  
+<form class='sem10form' id="semester10form" class="semform"> 
+    <h2>Summer Semester 2</h2>
   
 
   <div class="form-row" id="sem10row1">
@@ -1571,7 +1580,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow10'>REMOVE</button>
-
+  <button type="button" class="btn btn-secondary" id='calculate10'>Calculate</button>
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa10>  </span></h6>
         </div>
@@ -1580,10 +1589,8 @@
 
   </form>
 
-<form class='sem11form'> 
-  
-  
-
+<form class='sem11form' id="semester11form" class="semform"> 
+    <h2>Summer Semester 3</h2>
   <div class="form-row" id="sem11row1">
     <div class="col-2">
       <input type="text" class="form-control" placeholder="COURSES">
@@ -1722,7 +1729,7 @@
   
 
   <button type="button" class="btn btn-secondary" id='removerow11'>REMOVE</button>
-
+  <button type="button" class="btn btn-secondary" id='calculate11'>Calculate</button>
   <div class="col-md-6" class='result'>
               <h6>Your GPA is <span id=gpa11>  </span></h6>
         </div>
