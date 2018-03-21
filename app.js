@@ -142,7 +142,6 @@ function addGpaToCgpa(n){
         table.appendChild(tr)
     }
     rows = table.childNodes
-    console.log(rows)
     credits = 0
     gradePoints = 0
     for(i=0;i<rows.length;i++){
