@@ -37,7 +37,7 @@ form{
 
 }
 
-form.sem1form{
+form.sem1form,form.sem2form,form.sem3form,form.sem4form,form.sem5form,form.sem6form,form.sem7form,form.sem8form,form.sem9form,form.sem10form,form.sem11form{
     padding-left: 200px;
     padding-right: 0px;
     min-width: 100%;
@@ -95,50 +95,99 @@ h6 {
 }
 
 .sem2form{
-
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem3form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem4form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem5form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem6form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem7form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem8form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem9form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem10form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
 
 .sem11form{
+    width:70%;
+    margin: auto;
+    min-width: 600px;
+    overflow-x: hidden;
+    float: left;
     display: none;
 }
-
+/* 
 .sem4form {
     margin-top: 50px;
 
-}
+} */
 #add{
     margin: auto;
 
