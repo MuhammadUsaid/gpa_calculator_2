@@ -66,7 +66,7 @@ form.sem2form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -87,7 +87,7 @@ form.sem3form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -108,7 +108,7 @@ form.sem4form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -128,7 +128,7 @@ form.sem5form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -148,7 +148,7 @@ form.sem6form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -170,7 +170,7 @@ form.sem7form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -191,7 +191,7 @@ form.sem8form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -212,7 +212,7 @@ form.sem9form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -233,7 +233,7 @@ form.sem10form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
@@ -254,7 +254,7 @@ form.sem11form{
     /*margin-right: 200px;*/
     /*margin-left: 200px;*/
     margin-bottom: 100px;
-    display: inline;
+    display: none;
     border: 0 solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
