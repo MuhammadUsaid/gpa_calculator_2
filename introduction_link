@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gpa Calculator</title>
+  <meta charset="utf-8">
+	<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<style>
+
+</style>
+
+<body>
+<h1>GRADE POINT AVERAGE (GPA) POLICY:</h1>
+<hr>
+
+<!-- <a href="index.html" title="Go Back">Go back</a> -->
+
+<h2>1.	Introduction </h2>
+<ul>
+<li>
+This policy highlights the factors that need to be considered while calculating Semester and Cumulative GPA of students at Habib University.  
+</li>
+</ul>
+
+<h2>2.	CalculatingSGPA / CGPA </h2>
+<ul>
+<li>2.1	Grades A+ to F earned in a course shall be counted towards the calculation of SGPA and CGPA.</li>
+<li>2.2	Grade F replaced by R or R*, upon repeating a course, shall not be counted towards the calculation of GPA/SGPA.</li>
+<li>2.3	In case of Change in Major, all grades, including F, earned in the previous major shall also be counted for the calculation of CGPA.</li>
+<li>2.4	Following grades shall not be counted towards the calculation of SGPA or CGPA: Audit (A), Withdraw (W), Incomplete (I), Transfer (T), Suspended (S), Credit (CR), Non-Credit (NCR).</li>
+</ul>
+</body>

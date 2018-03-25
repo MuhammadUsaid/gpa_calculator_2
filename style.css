@@ -21,24 +21,25 @@
     background: gray;    
     border-color: #dee2e6;
 }
-}
+
+
+
 
 .table {
-float: right;
-min-width:50%;
-width: 100px,
-
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 700px;
+    margin-bottom: 1rem;
+    background-color: transparent;
 }
 
-form{
-    margin: auto;
-    outline: :2px;
 
 
-}
 
-form.sem1form,form.sem2form,form.sem3form,form.sem4form,form.sem5form,form.sem6form,form.sem7form,form.sem8form,form.sem9form,form.sem10form,form.sem11form{
-    padding-left: 200px;
+
+form.sem1form{
+    padding-left: 250px;
     padding-right: 0px;
     min-width: 100%;
     width:700px;
@@ -52,9 +53,263 @@ form.sem1form,form.sem2form,form.sem3form,form.sem4form,form.sem5form,form.sem6f
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     box-sizing: border-box;
+    /* additionLLL*/
+    background:  #dee2e6;
 
 }
 
+form.sem2form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+/*copy this for all sem8 , also .sem keh andar wali cheez*/
+form.sem3form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+
+form.sem4form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+form.sem5form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+form.sem6form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+
+
+form.sem7form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+
+form.sem8form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+
+form.sem9form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+
+form.sem10form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+
+form.sem11form{
+    padding-left: 250px;
+    padding-right: 0px;
+    min-width: 100%;
+    width:700px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    margin-bottom: 100px;
+    display: inline;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    background:  #dee2e6;
+
+
+}
+
+hr{
+    width: 80%;
+    border-top: 1px solid white;
+    /*very imp in giving 3d luk*/
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+     font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-shadow:-1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,1px 1px 0 #000;
+    
+}
+
+body{
+    font-family: 'Comic Sans MS', sans-serif;
+
+
+
+}
+
+h3{
+    /*min-width: 100%;*/
+    width: auto;
+    width:270px;
+/*    margin-right: 200px;
+    margin-top: 100px;
+    align-content: center;
+   /*color: #dee2e6;*/
+    color:gray;
+    border: 0 solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-shadow:-1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,1px 1px 0 #000;
+    background:  #dee2e6;
+
+
+}
 
 h2{
     min-width: 100%;
@@ -71,8 +326,11 @@ h2{
     border-right: 1px solid #000;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-
-
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color:#fff;
+    text-shadow:-1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,1px 1px 0 #000;
+    background:  #dee2e6;
 
 }
 
@@ -83,7 +341,18 @@ h6 {
     /*width:70%;*/
     /*margin: auto;*/
     /*min-width: 600px;*/
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-shadow:-1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,1px 1px 0 #000;
+    background:  #dee2e6;
+
+
+    
+
+
 }
+
 
 .sem1form{
     width:70%;
@@ -100,6 +369,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -109,6 +379,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -118,6 +389,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -127,6 +399,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -136,6 +409,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -145,6 +419,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -154,6 +429,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -163,6 +439,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -172,6 +449,7 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
 
@@ -181,17 +459,17 @@ h6 {
     min-width: 600px;
     overflow-x: hidden;
     float: left;
+    display: inline-block;
     display: none;
 }
+
+
 /* 
 .sem4form {
     margin-top: 50px;
 
 } */
-#add{
-    margin: auto;
 
-}
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
