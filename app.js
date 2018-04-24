@@ -92,13 +92,23 @@ function calculateGpa(n){
     gradePoints = 0
     gpa = {"A":4,"A-":3.67,"B+":3.33,"B":3,"B-":2.67,"C+":2.33,
     "C":2,"C-":1.67,"F":0,"Grade":0}
+    flag = true
     for(i=0;i<grades.length;i++){
-        if(credits[i] != 'Credits' && credits[i] != 'Credit'){
+        if(grades[i] == "Grade" || credits[i] == 'Credits' || credits[i] == 'Credit'){
+            flag = false
+            break
+        }
+        else{
             gradePoints += gpa[grades[i]]*credits[i]
         }
     }
     Gpa = (gradePoints/totalCredits).toFixed(2)
-    document.getElementById('gpa'+n).innerHTML = Gpa
+    if(flag){
+        document.getElementById('gpa'+n).innerHTML = Gpa
+    }
+    else{
+        alert("Please Select all the Grades and Credits")
+    }
 }
 function addGpaToCgpa(n){
     table = document.getElementById('table')
@@ -121,7 +131,7 @@ function addGpaToCgpa(n){
                 temp = rows[j].firstElementChild.value
                 value.push(rows[j].firstElementChild.value)
                 if(temp == "Credit" || temp== "Credtis" || temp == "Grade" || temp == "Grades"){
-                    alert("Please choose Grades and Credits")
+                    alert("Please select all the Grades and Credits")
                     return
                 }
             }
